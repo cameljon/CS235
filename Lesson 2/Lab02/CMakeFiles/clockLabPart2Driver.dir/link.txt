@@ -1,1 +1,0 @@
-/usr/bin/c++.exe    -Wl,--enable-auto-import CMakeFiles/clockLabPart2Driver.dir/clockLabPart2Driver.cpp.o CMakeFiles/clockLabPart2Driver.dir/clockPart2.cpp.o  -o clockLabPart2Driver.exe -Wl,--out-implib,libclockLabPart2Driver.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,1 +1,0 @@
-/usr/bin/c++.exe    -Wl,--enable-auto-import CMakeFiles/driver03.dir/driver03.cpp.o CMakeFiles/driver03.dir/point1.cpp.o  -o driver03.exe -Wl,--out-implib,libdriver03.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

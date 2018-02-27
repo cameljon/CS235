@@ -1,3 +1,0 @@
-/cygdrive/d/Drive/Documents/School/CS235/Lesson 2/Lab02/CMakeFiles/edit_cache.dir
-/cygdrive/d/Drive/Documents/School/CS235/Lesson 2/Lab02/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/Drive/Documents/School/CS235/Lesson 2/Lab02/CMakeFiles/clockLabPart2Driver.dir

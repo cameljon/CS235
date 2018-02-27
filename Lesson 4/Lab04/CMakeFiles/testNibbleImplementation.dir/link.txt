@@ -1,1 +1,0 @@
-/usr/bin/c++.exe   -Wall -std=c++11 -g  -Wl,--enable-auto-import CMakeFiles/testNibbleImplementation.dir/testNibbleImplementation.cpp.o CMakeFiles/testNibbleImplementation.dir/nibbleImplementation.cpp.o  -o testNibbleImplementation.exe -Wl,--out-implib,libtestNibbleImplementation.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,3 +1,0 @@
-/cygdrive/d/Drive/Documents/School/CS235/Lesson 5/Lab05/CMakeFiles/edit_cache.dir
-/cygdrive/d/Drive/Documents/School/CS235/Lesson 5/Lab05/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/Drive/Documents/School/CS235/Lesson 5/Lab05/CMakeFiles/nibbleOperDriver.dir
