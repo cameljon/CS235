@@ -1,5 +1,6 @@
 #include <iomanip>
 #include <iostream>
+#include <sstream>
 #include "nibbleOperHeader.h"
 #include "testNibbleOperHeader.h"
 using namespace ::std;
@@ -137,12 +138,12 @@ int menu()
 void visualTest()
 {
     // visually check your code
-    cout << "\nStarting Visual Test for Nibble Operators" << endl;
+    cout << "\nStarting Visual Test for Nibble Operators" << endl << endl;
 
     // 9 NibbleOpertorAssignment
     {
         // students write the visual test
-        cout << left << setw(40) << "Test operator assignment:";
+        cout << left << setw(40) << "Test assignment operator:";
         cout << setw(30) << "Nibble a = b(9)" << endl;
         Nibble a;
         Nibble b(9);
@@ -154,29 +155,76 @@ void visualTest()
     // 11 NibbleOperatorEqual
     {
         // students write the visual test
-        cout << left << setw(40) << "Test operator comparison:";
-        cout << setw(30) << "Nibble a(9) == b(9)" << endl;
+        cout << left << setw(40) << "Test equality operator true:";
+        cout << setw(30) << "a(9) == b(9)" << endl;
         Nibble a(9);
         Nibble b(9);
-        a == b;
-        cout << left << setw(40) << "a.getValueAsDecimal:";
-        cout << setw(30) << a.getValueAsDecimal() << endl << endl;
+        string out1 = (a == b) ? "True" : "False";
+        cout << left << setw(40) << "(a == b):";
+        cout << setw(30) << out1 << endl << endl;
+        cout << left << setw(40) << "Test equality operator false:";
+        cout << setw(30) << "a(9) == c(8)" << endl;
+        Nibble c(4);
+        string out2 = (a == c) ? "True" : "False";
+        cout << left << setw(40) << "(a == c):";
+        cout << setw(30) << out2 << endl << endl;
     }
 
     // 12 NibbleOperatorLessThan
     {
         // students write the visual test
+        cout << left << setw(40) << "Test less than operator true:";
+        cout << setw(30) << "a(4) < b(10)" << endl;
+        Nibble a(4);
+        Nibble b(10);
+        string out1 = (a < b) ? "True" : "False";
+        cout << left << setw(40) << "(a < b):";
+        cout << setw(30) << out1 << endl << endl;
+        cout << left << setw(40) << "Test less than operator false:";
+        cout << setw(30) << "b(10) < a(4)" << endl;
+        string out2 = (b < a) ? "True" : "False";
+        cout << left << setw(40) << "(b < a):";
+        cout << setw(30) << out2 << endl << endl;
     }
 
     // 13 NibbleOperatorPlus
     {
         // students write the visual test
+        cout << left << setw(40) << "Test addition operator:";
+        cout << setw(30) << "4 through 8" << endl;
+        for (int i = 4; i < 9; ++i) {
+            for (int j = 4; j < 9; ++j) {
+                if ((i + j) < 15) {
+                    Nibble        a(i), b(j);
+                    Nibble        c = a + b;
+                    ostringstream formula;
+                    formula << i << " + " << j << " =   ";
+                    cout << right << setw(40) << formula.str();
+                    cout << left << setw(30) << c.getValueAsDecimal() << endl;
+                }
+            }
+        }
     }
 
     // 14 NibbleOperatorMultiply
 
     {
         // students write the visual test
+        cout << left << setw(40) << "Test multiplication operator:";
+        cout << setw(30) << "0 through 3" << endl;
+        for (int i = 0; i < 4; ++i) {
+            for (int j = 0; j < 4; ++j) {
+                if ((i + j) < 15) {
+                    Nibble        a(i), b(j);
+                    Nibble        c = a * b;
+                    ostringstream formula;
+                    formula << i << " * " << j << " =   ";
+                    cout << right << setw(40) << formula.str();
+                    cout << left << setw(30) << c.getValueAsDecimal() << endl;
+                }
+            }
+        }
+        cout << endl;
     }
     cout << "End of Visual Test for Nibble Operators" << endl;
 }
