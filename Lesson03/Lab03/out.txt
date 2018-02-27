@@ -1,0 +1,45 @@
+Starting Visual Test
+Running getFirstName() and setFirstName() tests.
+	Set first name to John.
+	Calling getFirstName(): John
+	Set first name to Jane.
+	Calling getFirstName(): Jane
+Running getMiddleInitial() and setMiddleInitial() tests.
+	Set middle initial to D.
+	Calling getMiddleInitial(): D
+	Set middle initial to P.
+	Calling getMiddleInitial(): P
+Running getLastName() and setLastName() tests.
+	Set last name to Doe.
+	Calling getLastName(): Doe
+	Set last name to Howard.
+	Calling getLastName(): Howard
+Running isSmaller() test.
+	Jane A. Adams is smaller than John D. Doe.
+	Zachary S. Stephens is bigger than John D. Doe.
+Running copyTo() tests.
+	The object John is John D Doe
+	The object John is now Jane A Adams
+Running isEqual() tests.
+	The object name1 is John D Doe
+	The object name2 is John D Doe
+	The object name3 is Jane A Adams
+	Name1 is equal to name2.
+	Name2 is not equal to name3.
+Running changeLastNameToAllCaps() tests.
+	Names before caps: Doe Stephens Adams
+	Names after caps: DOE STEPHENS ADAMS
+Ending Visual Test
+
+
+Select for the following = use -1 to quit
+0 testGetAndSetFirstName()
+1 testGetAndSetMiddleInitial()
+2 testGetAndSetLastName()
+3 testIsSmaller()
+4 testCopyTo()
+5 testIsEqual()
+6 testChangeLastNameToAllCaps()
+7 testAll()
+7
+score for testAll() is 35
