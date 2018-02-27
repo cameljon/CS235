@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 5/Lecture06/Number.cpp
+Number.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 5/Lecture06/Number.h
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 5/Lecture06/Number.h
+iostream
+-
+string
+-
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 5/Lecture06/numberDriver.cpp
+iostream
+-
+Number.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 5/Lecture06/Number.h
+

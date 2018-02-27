@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleDriver.cpp
+iostream
+-
+nibbleHeader.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleHeader.h
+testNibbleHeader.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/testNibbleHeader.h
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleHeader.h
+string
+-
+cstring
+-
+iostream
+-
+iomanip
+-
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleImplementation.cpp
+nibbleHeader.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleHeader.h
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/testNibbleHeader.h
+iostream
+-
+nibbleHeader.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleHeader.h
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/testNibbleImplementation.cpp
+testnibbleHeader.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/testnibbleHeader.h
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/testnibbleHeader.h
+iostream
+-
+nibbleHeader.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleHeader.h
+

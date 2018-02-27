@@ -1,0 +1,1 @@
+/usr/bin/c++.exe    -Wl,--enable-auto-import CMakeFiles/lecture4driver.dir/lecture4driver.cpp.o CMakeFiles/lecture4driver.dir/location.cpp.o  -o lecture4driver.exe -Wl,--out-implib,liblecture4driver.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullName.cpp
+FullName.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullName.h
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullName.h
+iostream
+-
+cstring
+-
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullNameDriver.cpp
+FullName.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullName.h
+FullNameTester.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullNameTester.h
+iostream
+-
+string
+-
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullNameTester.h
+iostream
+-
+cstring
+-
+string
+-
+FullName.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullName.h
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullNameTesterImplementation.cpp
+FullNameTester.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 3/Lab03/FullNameTester.h
+cstring
+-
+string
+-
+iostream
+-
+

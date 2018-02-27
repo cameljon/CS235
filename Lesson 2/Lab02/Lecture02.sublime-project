@@ -1,0 +1,47 @@
+{
+	"folders":
+	[
+		{
+			"path": "./"
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Lecture02 - all",
+			"cmd": ["/usr/bin/make.exe", "-f", "Makefile", "VERBOSE=1", "all"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Lecture02 - clean",
+			"cmd": ["/usr/bin/make.exe", "-f", "Makefile", "VERBOSE=1", "clean"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Lecture02 - edit_cache",
+			"cmd": ["/usr/bin/make.exe", "-f", "Makefile", "VERBOSE=1", "edit_cache"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Lecture02 - rebuild_cache",
+			"cmd": ["/usr/bin/make.exe", "-f", "Makefile", "VERBOSE=1", "rebuild_cache"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Lecture02 - clockLabPart2Driver",
+			"cmd": ["/usr/bin/make.exe", "-f", "Makefile", "VERBOSE=1", "clockLabPart2Driver"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		},
+		{
+			"name": "Lecture02 - clockLabPart2Driver/fast",
+			"cmd": ["/usr/bin/make.exe", "-f", "Makefile", "VERBOSE=1", "clockLabPart2Driver/fast"],
+			"working_dir": "${project_path}",
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$"
+		}
+	]
+	}

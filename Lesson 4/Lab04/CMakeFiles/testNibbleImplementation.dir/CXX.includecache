@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleHeader.h
+string
+-
+iostream
+-
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleImplementation.cpp
+nibbleHeader.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleHeader.h
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/testNibbleImplementation.cpp
+testnibbleHeader.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/testnibbleHeader.h
+
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/testnibbleHeader.h
+iostream
+-
+nibbleHeader.h
+/cygdrive/d/Drive/Documents/School/CS235/Lesson 4/Lab04/nibbleHeader.h
+
