@@ -8,4 +8,6 @@ target_sources(statesDriver
     PUBLIC
         "${CMAKE_CURRENT_SOURCE_DIR}/states.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/states.h"
+        "${CMAKE_CURRENT_SOURCE_DIR}/testStates.cpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/testStates.h"
 )
