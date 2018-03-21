@@ -1,7 +1,9 @@
 # CS235: Project 1 - States class
 
 Author: Jon Volden
+
 Date: 3/21/2018
+
 Instructor: Isabelle Chen
 
 ## Objective
