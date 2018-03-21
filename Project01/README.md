@@ -14,7 +14,7 @@ The goal was to create an object-oriented class to store and retrieve informatio
 
 The main class is in states.h and states.cpp. The statesDriver.cpp is used as a driver file to access the functions of the class. Also, test functions were split up into separate files, testStates.h and testStates.cpp.
 
-To get state, abbreviation, and capital names, the std::getline() function is used in a separate function State::getInput(). This was used in State::manual() for readability and to handle spaces in user input.
+To get state, abbreviation, and capitol names, the std::getline() function is used in a separate function State::getInput(). This was used in State::manual() for readability and to handle spaces in user input.
 
 The states class uses the Vector STL to handle the storing of the states objects. It is not limited to 50 states, but maybe should be? From the vector STL we only use the push_back and size member functions. This could be expanded so states can be modified or deleted.
 
@@ -29,6 +29,6 @@ The TestStates class is used to test all the functions of the State class. The t
 * Print individual state objects
 * Add field validation for object fields:
   1. Year within certain range
-  2. Abbreviation only 2 capitol letters
-  3. State and capital names have no invalid chars
+  2. Abbreviation only 2 capital letters
+  3. State and capitol names have no invalid chars
   4. Population greater than 0

@@ -1,0 +1,285 @@
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+1
+Enter first middle last names of friend to add to the front of the list
+Jon P Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+1
+Enter first middle last names of friend to add to the front of the list
+Erica J Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+1
+Enter first middle last names of friend to add to the front of the list
+Aubrey J Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+1
+Enter first middle last names of friend to add to the front of the list
+Zachary J Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+9
+Zachary J. Volden
+Aubrey J. Volden
+Erica J. Volden
+Jon P. Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+6
+isSorted called with return value of 0
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+3
+removeFront called with return value of 1
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+9
+Aubrey J. Volden
+Erica J. Volden
+Jon P. Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+6
+isSorted called with return value of 1
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+7
+Enter the first name of the friend to search for Jon
+Jon found in location 3
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+8
+starting with 1, input the requested location 3
+location 3 holds Jon P. Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+2
+Enter first middle last names of friend to add at the end of the list
+Zachary J Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+9
+Aubrey J. Volden
+Erica J. Volden
+Jon P. Volden
+Zachary J. Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+5
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+9
+Aubrey J. Volden
+Erica J. Volden
+Jon P. Volden
+Zachary J. Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+4
+removeRear called with return value of 1
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
+9
+Aubrey J. Volden
+Erica J. Volden
+Jon P. Volden
+
+
+Select for the following = use -1 to quit
+1 addFront
+2 addRear
+3 removeFront
+4 removeRear
+5 = Operator
+6 isSorted
+7 findFriend
+8 retrieveFriend
+9 printAll
+10 clearAll
