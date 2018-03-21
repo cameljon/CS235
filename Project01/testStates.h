@@ -22,10 +22,10 @@ class TestStates {
     // Default destructor
     ~TestStates();
 
-    void test(bool, std::string);
-    void testConstructors();  // (TEST) Default constructors
-    void testSetGet();        // (TEST) Setters and getters
-    void testPrint();         // (TEST) Printers
+    void test(bool, std::string);  // (TEST) Output test results
+    void testConstructors();       // (TEST) Default constructors
+    void testSetGet();             // (TEST) Setters and getters
+    void testPrint();              // (TEST) Printers
 
     static void allTests();  // Runs all tests in test class
 };

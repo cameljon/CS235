@@ -17,7 +17,7 @@ int main()
         selection = State::menu();
         switch (selection) {
             case 1:
-                // Manually add state information
+                // Ask user input to add state object
                 State::manual();
                 break;
             case 2:

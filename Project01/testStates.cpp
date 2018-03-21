@@ -22,6 +22,13 @@ void TestStates::allTests()
     cout << "All tests done!" << endl;
 }
 
+/**
+    @brief Prints test results
+
+    @param condition is type bool. 0 = fail
+    @param text is type string. What is being tested
+    @return nothing
+ */
 void TestStates::test(bool condition, string text)
 {
     cout << text << ": ";
@@ -33,6 +40,12 @@ void TestStates::test(bool condition, string text)
     }
 }
 
+/**
+    @brief Tests the constructor and destructor functions
+
+    @param nothing
+    @return nothing
+ */
 void TestStates::testConstructors()
 {
     cout << "Testing constructors: " << endl;
@@ -61,6 +74,12 @@ void TestStates::testConstructors()
     // No errors for testing destructor
 }
 
+/**
+    @brief Tests the set and get functions
+
+    @param nothing
+    @return nothing
+ */
 void TestStates::testSetGet()
 {
     cout << "Testing setters and getters: " << endl;
@@ -91,41 +110,47 @@ void TestStates::testSetGet()
     }
 }
 
+/**
+    @brief Tests the print functions
+
+    @param nothing
+    @return nothing
+ */
 void TestStates::testPrint()
 {
     cout << "Testing printers: " << endl;
     {  // Test printStateName()
         State a;
         a.setStateName("TEST STATE");
-        cout << "Test printStateName() - Should be TEST STATE: ";
+        cout << "Should be TEST STATE: ";
         a.printStateName();
         cout << endl;
     }
     {  // Test printStateAbbrev()
         State a;
         a.setStateAbbrev("TS");
-        cout << "Test printStateAbbrev() - Should be TS: ";
+        cout << "Should be TS: ";
         a.printStateAbbrev();
         cout << endl;
     }
     {  // Test printStateYear()
         State a;
         a.setStateYear(2018);
-        cout << "Test printStateYear() - Should be 2018:  ";
+        cout << "Should be 2018:  ";
         a.printStateYear();
         cout << endl;
     }
     {  // Test printStatePop()
         State a;
         a.setStatePop(123456789);
-        cout << "Test printStatePop() - Should be 123456789: ";
+        cout << "Should be 123456789: ";
         a.printStatePop();
         cout << endl;
     }
     {  // Test printStateCapitol()
         State a;
         a.setStateCapitol("TEST CAPITOL");
-        cout << "Test printStateCapitol() - Should be TEST CAPITOL ";
+        cout << "Should be TEST CAPITOL ";
         a.printStateCapitol();
         cout << endl;
     }

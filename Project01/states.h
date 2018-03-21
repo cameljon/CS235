@@ -22,7 +22,7 @@ class State {
     // Default constructor
     State();
     // Copy constructor
-    State(State const& state);
+    State(State const &state);
     // Parameter constructor
     State(std::string, std::string, int, int, std::string);
     // Destructor
@@ -34,11 +34,11 @@ class State {
     void setStatePop(int);              // Set 2010 state population
     void setStateCapitol(std::string);  // Set state's capitol
 
-    std::string getStateName();     // Get name
-    std::string getStateAbbrev();   // Get state initials
-    int         getStateYear();     // Get year admitted to union
-    int         getStatePop();      // Get 2010 state population
-    std::string getStateCapitol();  // Get state's capitol
+    std::string getStateName() const;     // Get name
+    std::string getStateAbbrev() const;   // Get state initials
+    int         getStateYear() const;     // Get year admitted to union
+    int         getStatePop() const;      // Get 2010 state population
+    std::string getStateCapitol() const;  // Get state's capitol
 
     void printStateName();     // Print name
     void printStateAbbrev();   // Print state initials
@@ -64,12 +64,12 @@ class State {
     static void loadAll();
 
    private:
-    std::string m_name;                 ///< State name
-    std::string m_abbrev;               ///< Two letter state initial
-    int         m_year;                 ///< Year admitted into the Union
-    int         m_population;           ///< Population according to 2010 census
-    std::string m_capitol;              ///< State capitol
-    static std::vector<State> vstates;  ///< Vector to manage state objects
+    std::string               m_name;        ///< State name
+    std::string               m_abbrev;      ///< Two letter state initial
+    int                       m_year;        ///< Year admitted into the Union
+    int                       m_population;  ///< Population according to 2010 census
+    std::string               m_capitol;     ///< State capitol
+    static std::vector<State> vstates;       ///< Vector to manage state objects
 };
 
 #endif

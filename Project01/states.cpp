@@ -31,8 +31,7 @@ State::State()
     @param capitol is type string
     @return nothing
  */
-State::State(string name, string abbrev, int year, int population,
-             string capitol)
+State::State(string name, string abbrev, int year, int population, string capitol)
 {
     m_name       = name;
     m_abbrev     = abbrev;
@@ -47,7 +46,7 @@ State::State(string name, string abbrev, int year, int population,
     @param state is const type State
     @return nothing
  */
-State::State(State const& state)
+State::State(State const &state)
 {
     m_name       = state.m_name;
     m_abbrev     = state.m_abbrev;
@@ -64,11 +63,11 @@ void State::setStateYear(int year) { m_year = year; }
 void State::setStatePop(int population) { m_population = population; }
 void State::setStateCapitol(string capitol) { m_capitol = capitol; }
 
-string State::getStateName() { return m_name; }
-string State::getStateAbbrev() { return m_abbrev; }
-int    State::getStateYear() { return m_year; }
-int    State::getStatePop() { return m_population; }
-string State::getStateCapitol() { return m_capitol; }
+string State::getStateName() const { return m_name; }
+string State::getStateAbbrev() const { return m_abbrev; }
+int    State::getStateYear() const { return m_year; }
+int    State::getStatePop() const { return m_population; }
+string State::getStateCapitol() const { return m_capitol; }
 
 void State::printStateName() { cout << m_name; }
 void State::printStateAbbrev() { cout << m_abbrev; }
@@ -84,6 +83,12 @@ void State::printStateCapitol() { cout << m_capitol; }
  */
 vector<State> State::vstates;
 
+/**
+    @brief Menu for states class
+
+    @param nothing
+    @return nothing
+ */
 int State::menu()
 {
     cout << "\nWhat would you like to do?" << endl
@@ -99,6 +104,12 @@ int State::menu()
     return input;
 }
 
+/**
+    @brief Function for getting input and adding state object to vstates vector
+
+    @param nothing
+    @return nothing
+ */
 void State::manual()
 {
     int   year;
@@ -120,6 +131,12 @@ void State::manual()
     vstates.push_back(state);
 }
 
+/**
+    @brief Get user input per line
+
+    @param nothing
+    @return nothing
+ */
 string State::getInput()
 {
     string input;
@@ -127,11 +144,17 @@ string State::getInput()
     return input;
 }
 
+/**
+    @brief Prints a formated header with state attribute title
+
+    @param nothing
+    @return nothing
+ */
 void State::printHeader()
 {
-    cout << left << setw(20) << "\nState" << left << setw(15) << "Abbreviation"
-         << left << setw(15) << "Entered Union" << left << setw(20)
-         << "2010 Population" << left << setw(20) << "State Capitol" << endl;
+    cout << left << setw(20) << "\nState" << left << setw(15) << "Abbreviation" << left << setw(15)
+         << "Entered Union" << left << setw(20) << "2010 Population" << left << setw(20)
+         << "State Capitol" << endl;
 }
 
 /**
@@ -143,17 +166,21 @@ void State::printHeader()
 */
 void State::printRow(int index)
 {
-    cout << left << setw(20) << vstates[index].getStateName() << left
-         << setw(15) << vstates[index].getStateAbbrev() << left << setw(15)
-         << vstates[index].getStateYear() << left << setw(20)
-         << vstates[index].getStatePop() << left << setw(20)
+    cout << left << setw(20) << vstates[index].getStateName() << left << setw(15)
+         << vstates[index].getStateAbbrev() << left << setw(15) << vstates[index].getStateYear()
+         << left << setw(20) << vstates[index].getStatePop() << left << setw(20)
          << vstates[index].getStateCapitol() << endl;
 }
 
+/**
+    @brief Prints a footer with total state objects in vector
+
+    @param nothing
+    @return nothing
+ */
 void State::printFooter()
 {
-    cout << left << setw(20) << "\nTotal State Objects: " << vstates.size()
-         << endl;
+    cout << left << setw(20) << "\nTotal State Objects: " << vstates.size() << endl;
 }
 
 /**
@@ -217,8 +244,7 @@ void State::loadAll()
     vstates.push_back(State("Ohio", "OH", 1803, 11536504, "Columbus"));
     vstates.push_back(State("Oklahoma", "OK", 1907, 3751351, "Oklahoma City"));
     vstates.push_back(State("Oregon", "OR", 1859, 3831074, "Salem"));
-    vstates.push_back(
-        State("Pennsylvania", "PA", 1787, 12702379, "Harrisburg"));
+    vstates.push_back(State("Pennsylvania", "PA", 1787, 12702379, "Harrisburg"));
     vstates.push_back(State("Rhode Island", "RI", 1790, 1052567, "Providence"));
     vstates.push_back(State("South Carolina", "SC", 1788, 4625364, "Columbia"));
     vstates.push_back(State("South Dakota", "SD", 1889, 814180, "Pierre"));
@@ -228,8 +254,7 @@ void State::loadAll()
     vstates.push_back(State("Vermont", "VT", 1791, 625741, "Montpelier"));
     vstates.push_back(State("Virginia", "VA", 1788, 8001024, "Richmond"));
     vstates.push_back(State("Washington", "WA", 1889, 6724540, "Olympia"));
-    vstates.push_back(
-        State("West Virginia", "WV", 1863, 1852994, "Charleston"));
+    vstates.push_back(State("West Virginia", "WV", 1863, 1852994, "Charleston"));
     vstates.push_back(State("Wisconsin", "WI", 1848, 323311, "Madison"));
     vstates.push_back(State("Wyoming", "WY", 1890, 69844, "Cheyenne"));
 }
